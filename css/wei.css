@@ -1,0 +1,232 @@
+/*下面是对脚部内容的设置*/
+.s7{
+	width:1230px;
+	height:260px;
+	margin:0 auto;
+}
+.s71{
+	width:1230px;
+	height:80px;
+	border-bottom:1px solid #E0E0E0;
+}
+.img1,.img2,.img3,.img4,.img5{
+	float:left;
+}
+.footer a{
+	text-decoration:none;
+	color:#616161;
+	font-size:16px;
+}
+.footer{
+	width:194px;
+	height:36px;
+	border-right:1px solid #E0E0E0;
+	padding-left:48px;
+	margin-top:25px;
+	float:left;
+}
+.footer:nth-child(5){
+	border-right:1px solid white;
+}
+.fuwu{
+	margin-top:7px;
+}
+.footer:hover .fuwu{
+	color:#FF6709;
+}
+.footer .img1{
+	width:36px;
+	height:36px;
+	background:url("images/xia1.png") no-repeat;
+}
+.footer:hover .img1{
+	width:36px;
+	height:36px;
+	background:url("images/xia12.png") no-repeat;
+}
+.footer .img2{
+	width:36px;
+	height:36px;
+	background:url("images/xia2.png") no-repeat;
+}
+.footer:hover .img2{
+	width:36px;
+	height:36px;
+	background:url("images/xia22.png") no-repeat;
+}
+.footer .img3{
+	width:36px;
+	height:36px;
+	background:url("images/xia3.png") no-repeat;
+}
+.footer:hover .img3{
+	width:36px;
+	height:36px;
+	background:url("images/xia32.png") no-repeat;
+}
+.footer .img4{
+	width:36px;
+	height:36px;
+	background:url("images/xia4.png") no-repeat;
+}
+.footer:hover .img4{
+	width:36px;
+	height:36px;
+	background:url("images/xia42.png") no-repeat;
+}
+.footer .img5{
+	width:36px;
+	height:36px;
+	background:url("images/xia5.png") no-repeat;
+}
+.footer:hover .img5{
+	width:36px;
+	height:36px;
+	background:url("images/xia52.png") no-repeat;
+}
+/*脚部第二部分的设置*/
+.s72{
+	width:1230px;
+	height:180px;
+}
+.s721,.s722{
+	width:162px;
+	height:130px;
+	float:left;
+	margin-top:40px;
+}
+.s721 a{
+	text-decoration:none;
+	color:#757575;
+	font-size:12px;
+}
+.s721 ul li{
+	margin-top:15px;
+}
+.s721 ul li a:hover{
+	color:#FF6801;
+}
+.s722 ul li a:hover{
+	color:#FF6801;
+}
+.s721 ul li:nth-child(1){
+	margin-top:0px;
+	padding:0 0 15px;
+	color:#424;
+	font-size:14px;
+}
+.s722{
+	border-right:1px solid #E0E0E0;
+}
+.s722 a{
+	text-decoration:none;
+	color:#757575;
+	font-size:12px;
+}
+.s722 ul li{
+	margin-top:15px;
+}
+.s722 ul li:nth-child(1){
+	margin-top:0px;
+	padding:0 0 15px;
+	color:#424;
+	font-size:14px;
+}
+.s723{
+	width:150px;
+	height:112px;
+	float:right;
+	margin:42px 50px;
+}
+.s723 p:nth-child(1){
+	font-size: 22px;
+	color: #ff6700;
+	font-family:'微软雅黑';
+}
+.s723 p:nth-child(2){
+	margin:0 0 16px;
+	font-size:12px;
+	text-align:center;
+	margin-top:5px;
+}
+/*24小时在线服务那一部分*/
+.kefu{
+	border:1px solid #FF6709;
+	text-align:center;
+	font-size:14px;
+	height:25px;
+	width:120px;
+	margin-left:15px;
+	padding-top:5px;
+}
+.kefu a{
+	color:#FF6709;
+	text-decoration:none;
+}
+.kefu:hover{
+	background:#FF6709;
+}
+.kefu:hover a{
+	color:white;
+}
+/*最好部分的设置*/
+.s8{
+	width:1310px;
+	height:106px;
+    padding:30px 0;
+	font-size: 12px;
+	background:#fafafa;
+	margin-top:40px;
+}
+.s81{
+	width:57px;
+	height:57px;
+	margin-left:35px;
+	font-size:12px;
+}
+#ss1{
+	width:810px;
+	height:18px;
+}
+.s81,#ss1,#ss2,.s83{
+	float:left;
+}
+#ss1 a{
+	text-decoration:none;
+	color:#403940;
+}
+#ss1 a:hover{
+	color:#FF6801;
+}
+#ss2{
+	width:810px;
+	height:36px;
+	color:#b0b0b0;
+}
+#ss2 a{
+	text-decoration:none;
+	color:#b0b0b0;
+}
+#ss2 a:hover{
+	color:#FF6801;
+}
+.s83{
+	width:400px;
+	height:34px;
+	margin-top:-16px;
+}
+.s83 img{
+	margin-right:8px;
+}
+.s84{
+	    margin:100px auto;
+		width:280px;
+		height:19px;
+}
+/*下面是对“探索黑科技，小米为发烧而生！”进行字体设置，是不可选中的*/
+.s84 p{
+	-webkit-user-select:none;
+	user-select:none;
+	color:#BABABA;
+	font-size:20px;
+}

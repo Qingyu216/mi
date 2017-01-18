@@ -1,0 +1,143 @@
+/*利用选择器对各部分进行设置*/
+*{margin:0px;padding:0px;list-style:none;}
+/*这是最外面大框的设置*/
+.wai{
+	width:1310px;
+	margin:0 auto;
+}
+/*.s1这是导航栏部分*/
+.s1{
+	width:1260px;
+	margin:0 auto;
+	height:40px;
+	background:#333333;
+	display:hidden;
+	clear:both;
+	padding:0 40px;
+	margin-left:-15px;
+}
+/*这是导航栏左边*/
+.s11{
+	width:580px;
+	height:100%;
+	margin-left:20px;
+}
+.s11 li{
+	float:left;
+	border-left:1px solid #424242;
+	padding:0 8px;
+	font-size:12px;
+	margin-top:11px;
+}
+.s11 li a{
+	color:#ACA898;
+	text-decoration:none;
+	font-family:'微软雅黑';
+}
+.s11 a:hover{
+	color:white;
+}
+/*导航栏右边*/
+.s12{
+	float:right;
+	width:250px;
+	height:100%;
+}
+.s121,.s122{
+	width:100px;
+	float:left;
+}
+.s121 li{
+	float:left;
+	border-right:1px solid #424242;
+	padding:0 8px;
+	font-size:12px;
+	margin-top:11px;
+}
+.s121 li a{
+	color:#ACA898;
+	text-decoration:none;
+	font-family:'微软雅黑';
+}
+.s121 a:hover{
+	color:white;
+}
+.s122{
+	width:85px;
+	height:30px;
+	background:#424242;
+	padding-top:10px; 
+	padding-left:25px;
+	color:#ACA898;
+	font-family:'微软雅黑';
+	font-size:12px;
+	position:relative;
+}
+/*导航栏最右边的购物车*/
+.gouwu{
+	width:250px;
+	height:20px;
+	border-left:3px solid #EEEEEE;
+	border-right:3px solid #EEEEEE;
+	border-bottom:3px solid #EEEEEE;
+	background:white;
+	position:absolute;
+	top:40px;
+	left:-215px;
+	padding:40px 40px;
+	display:none;
+	color:#868686;
+}
+.s122 a{
+	text-decoration:none;
+	color:#868686;
+}
+.s122:hover{
+	background:white;
+}
+.s122:hover a{
+	color:#F75D08;
+}
+.s122:hover .gouwu{
+	display:block;
+}
+
+
+/*下面是右下角的返回和意见反馈按钮*/
+.fixed{
+	width:120px;
+	height:100px;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+	z-index:1100;
+}
+.fi1,.fi2{
+	width:40px;
+	height:40px;
+	margin-top:10px;
+	background:#EDEDED;
+	z-index:0px;
+	margin-left:80px;
+}
+.fi11,.fi12{
+	width:115px;
+	height:30px;
+	background:#FF6801;
+	z-index:1;
+	display:none;
+	margin-left:-80px;
+	padding-top:12px;
+	padding-left:5px;
+	color:white;
+	font-family:'微软雅黑';
+}
+.fi1:hover .fi11{
+	display:block;
+}
+.fi2:hover .fi12{
+	display:block;
+}
+.fixed a{
+	text-decoration:none;
+}

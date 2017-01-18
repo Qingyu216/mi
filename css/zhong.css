@@ -1,0 +1,1321 @@
+/*第二部分导航栏部分，有搜索框的那一部分*/
+.s2{
+	width:1230px;
+	height:100px;
+	margin:0 auto;
+}		
+.s2zuo{
+	width:50px;
+	height:50px;
+	margin-top:24px;	
+}
+.s2zhong{
+	width:645px;
+	margin-left:175px;
+	margin-top:40px;
+	position:relative;
+}
+.s2zhong li{
+	float:left;
+	padding-left:20px;
+	padding-bottom:40px;
+}
+.s2zhong li a{
+	color:#333333;
+	font-size:16px;
+	text-decoration:none;
+	font-family:'微软雅黑';
+}
+.s2zuo,.s2zhong,.s2you{
+	float:left;
+}
+.s2zhong ul li:hover a{
+	color:#F75D08;
+}
+/*下面是下拉菜单的设置*/
+.xiala1{
+	width:1255px;
+	height:0px;
+	background:white;
+	padding-left:90px;
+	overflow:hidden;
+	-webkit-transform:translate(0px 230px); 
+	position:absolute;
+	top:60px;
+	left:-285px;
+	z-index:998;
+} 
+/*当鼠标经过时，显示的效果*/
+.zhongjian1:hover .xiala1{
+	border-top:1px solid #C0C0C0;
+	height:230px;
+	-webkit-transition:all 0.1s linear 0s;
+}
+.zhongjian2:hover .xiala1{
+	border-top:1px solid #C0C0C0;
+	height:230px;
+	-webkit-transition:all 0.1s linear 0s;
+}
+.zhongjian3:hover .xiala1{
+	border-top:1px solid #C0C0C0;
+	height:230px;
+	-webkit-transition:all 0.1s linear 0s;
+}
+.zhongjian4:hover .xiala1{
+	border-top:1px solid #C0C0C0;
+	height:230px;
+	-webkit-transition:all 0.1s linear 0s;
+}
+.zhongjian5:hover .xiala1{
+	border-top:1px solid #C0C0C0;
+	height:230px;
+	-webkit-transition:all 0.1s linear 0s;
+}
+.zhongjian6:hover .xiala1{
+	border-top:1px solid #C0C0C0;
+	height:230px;
+	-webkit-transition:all 0.1s linear 0s;
+}
+.zhongjian7:hover .xiala1{
+	border-top:1px solid #C0C0C0;
+	height:230px;
+	-webkit-transition:all 0.1s linear 0s;
+}
+/*字体设置*/
+#money{
+	color:#F75D08;
+	font-family:'微软雅黑';
+}
+.images1,.images2,.images3{
+	width:200px;
+	height:160px;
+	float:left;
+	background:white;
+	margin-top:30px;
+}
+.images1 img{
+	border-right:1px solid #C0C0C0;
+	padding-right:20px;
+	margin-left:10px;
+}
+/* .zhongjian1:hover .xiala1{
+	display:block;
+} 
+.zhongjian2:hover .xiala1{
+	display:block;
+}
+.zhongjian3:hover .xiala1{
+	display:block;
+}
+.zhongjian4:hover .xiala1{
+	display:block;
+}
+.zhongjian5:hover .xiala1{
+	display:block;
+}
+.zhongjian6:hover .xiala1{
+	display:block;
+}
+.zhongjian7:hover .xiala1{
+	display:block;
+}*/
+.images1 p{
+	text-align:center;
+}
+#images1{
+	font-size:14px;
+	color:#404040;
+}
+.s2you{
+	width:302px;
+	height:50px;
+	border:1px solid #B0B0B0;
+	margin-top:25px;
+	margin-left:50px;
+}
+.you1{
+	width:250px;
+	height:100%;
+	position:relative;
+}
+.limian{
+	width:200px;
+	height:50px;
+	position:absolute;
+	top:0px;
+	left:40px;
+}
+.limian1{
+	width:54px;
+	height:20px;
+	font-size:12px;
+	font-family:'微软雅黑';
+	color:#757575;
+	text-align:center;
+	background:#EEEEEE;
+	position:absolute;
+	top:15px;
+	right:110px;
+}
+.limian2{
+	width:86px;
+	height:20px;
+	font-size:12px;
+	font-family:'微软雅黑';
+	color:#757575;
+	text-align:center;
+	background:#EEEEEE;
+	position:absolute;
+	top:15px;
+	right:20px;
+}
+.limian1:hover{
+	background:#FF6700;
+	color:white;
+}
+.limian2:hover{
+	background:#FF6700;
+	color:white;
+}
+.search{
+	height:50px;
+	width:250px;
+	border:none;
+}
+.search:hover + .limian{
+	display:none;
+}
+.you2{
+	width:50px;
+	height:50px;
+		border-left:1px solid #B0B0B0;
+	float:right;
+	background:url("../images/sousuo1.png") no-repeat;
+}
+.you2:hover{
+	background:url("../images/sousuo2.png") no-repeat;
+	background-size:52px 52px;
+}
+/*下面是由轮播图的那一部分*/
+.s3{
+	width:1230px;
+	height:462px;
+	margin:0 auto;
+}
+/*第三部分左边导航部分*/
+.s31{
+	width:236px;
+	height:462px;
+	border:1px solid #222222;
+	background:#222222;
+	position:relative;
+	z-index:997;
+}
+.s31 ul li{
+	width:207px;
+	height:22px;
+	color:#FFFFFF;
+	font-size:14px;
+	font-family:'微软雅黑';
+	padding-left:30px;
+	padding-top:10px;
+	padding-bottom:10px;
+	position:relative;
+}
+.s31 ul a{
+	text-decoration:none;
+}
+.s31 ul{
+	padding-top:20px;
+}
+.s31 ul li:hover{
+	background:#FF6700;
+}
+/*第三部分左边弹出菜单部分*/
+.xiala2{
+	width:530px;
+	height:463px;
+	border-top:1px solid #C0C0C0;
+	border-bottom:1px solid #C0C0C0;
+	background:white;
+	position:absolute;
+	top:-22px;
+	left:237px;
+	display:none;
+	z-index:800;
+}
+#xiala2{
+	width:225px;
+	height:40px;
+	float:left;
+	margin-left:20px;
+	margin-top:30px;
+}
+#xiala2 img{
+	float:left;
+}
+#xiala2 div{
+	width:60px;
+	height:24px;
+	border:1px solid #FF6700;
+	float:right;
+	margin-top:7px;
+	text-align:center;
+	color:black;
+}
+#xiala2 div:hover{
+	color:white;
+	background:#FF6700;
+}
+#xiala2 p:hover{
+	color:#FF6700;
+}
+#xiala2 p{
+	color:black;
+	margin-top:10px;
+	width:150px;
+	padding-left:55px;
+}
+.s31 li:hover .xiala2{
+	display:block;
+}
+.s31 li:hover .xiala8{
+	display:block;
+}
+/*这是菜单的设置*/
+.sanlie{
+	float:left;
+	width:265px;
+	height:463px;
+}
+.lianglie{
+	float:left;
+	width:265px;
+	height:463px;
+}
+.xiala8{
+	width:265px;
+	height:463px;
+	border-top:1px solid #C0C0C0;
+	border-bottom:1px solid #C0C0C0;
+	background:white;
+	position:absolute;
+	top:-274px;
+	left:237px;
+	display:none;
+	z-index:800;
+}
+.s31 li:hover .xiala9{
+	display:block;
+}
+.xiala9{
+	width:265px;
+	height:463px;
+	border-top:1px solid #C0C0C0;
+	border-bottom:1px solid #C0C0C0;
+	background:white;
+	position:absolute;
+	top:-316px;
+	left:237px;
+	display:none;
+	z-index:800;
+}
+.s31 li:hover .xiala10{
+	display:block;
+}
+.xiala10{
+	width:265px;
+	height:463px;
+	border-top:1px solid #C0C0C0;
+	border-bottom:1px solid #C0C0C0;
+	background:white;
+	position:absolute;
+	top:-358px;
+	left:237px;
+	display:none;
+	z-index:800;
+}
+.s31 li:hover .xiala11{
+	display:block;
+}
+.xiala11{
+	width:265px;
+	height:463px;
+	border-top:1px solid #C0C0C0;
+	border-bottom:1px solid #C0C0C0;
+	background:white;
+	position:absolute;
+	top:-400px;
+	left:237px;
+	display:none;
+	z-index:800;
+}
+.s31 li:hover .xiala3{
+	display:block;
+}
+.xiala3{
+	width:265px;
+	height:463px;
+	border-top:1px solid #C0C0C0;
+	border-bottom:1px solid #C0C0C0;
+	background:white;
+	position:absolute;
+	top:-62px;
+	left:237px;
+	display:none;
+	z-index:800;
+}
+.s31 li:hover .xiala4{
+	display:block;
+}
+.xiala4{
+	width:795px;
+	height:463px;
+	border-top:1px solid #C0C0C0;
+	border-bottom:1px solid #C0C0C0;
+	background:white;
+	position:absolute;
+	top:-104px;
+	left:237px;
+	display:none;
+	z-index:800;
+}
+.s31 li:hover .xiala7{
+	display:block;
+}
+.xiala7{
+	width:795px;
+	height:463px;
+	border-top:1px solid #C0C0C0;
+	border-bottom:1px solid #C0C0C0;
+	background:white;
+	position:absolute;
+	top:-230px;
+	left:237px;
+	display:none;
+	z-index:800;
+}
+.s31 li:hover .xiala5{
+	display:block;
+}
+.xiala5{
+	width:795px;
+	height:463px;
+	border-top:1px solid #C0C0C0;
+	border-bottom:1px solid #C0C0C0;
+	background:white;
+	position:absolute;
+	top:-146px;
+	left:237px;
+	display:none;
+	z-index:800;
+}
+.s31 li:hover .xiala6{
+	display:block;
+}
+.xiala6{
+	width:530px;
+	height:463px;
+	border-top:1px solid #C0C0C0;
+	border-bottom:1px solid #C0C0C0;
+	background:white;
+	position:absolute;
+	top:-188px;
+	left:237px;
+	display:none;
+	z-index:800;
+}
+.span{
+	font-size:20px;
+	position:absolute;
+	left:200px;
+	bottom:10px;
+}
+/*轮播图设置*/
+.s32{
+	width:992px;
+	height:460px;
+	float:right;
+}
+/*下面是对电信专场那一部分的设置*/
+.s4{
+	width:1230px;
+	height:170px;
+	margin:14px auto;
+}
+.s41{
+	width:235px;
+	height:170px;
+}
+.s42,.s43,.s44{
+	width:316px;
+	height:170px;
+	float:right;
+	margin-left:15px;
+}
+.s42:hover{
+	box-shadow:0px 10px 20px 0px black;
+}
+.s43:hover{
+	box-shadow:0px 10px 20px 0px black;
+}
+.s44:hover{
+	box-shadow:0px 10px 20px 0px black;
+}
+/*下面是对“小米明星单品”那一部分的设置*/
+.s5{
+	width:1230px;
+	height:420px;
+	margin-top:32px;
+	margin-left:40px;
+}
+.s51{
+	width:100%;
+	height:22px;
+	font-family:'微软雅黑';
+	font-size:22px;
+}
+.s52,.s53,.s54,.s55,.s56{
+	width:234px;
+	height:340px;
+	background:#FAFAFA;
+	float:left;
+	margin-top:20px;
+}
+.s53,.s54,.s55,.s56{
+	margin-left:12px;
+}
+.s52{
+	border-top:1px solid #FFAC13;
+}
+.s53{
+	border-top:1px solid #83C44E;
+}
+.s54{
+	border-top:1px solid #2196F3;
+}
+.s55{
+	border-top:1px solid #E53935;
+}
+.s56{
+	border-top:1px solid #00C0A5;
+}
+.ss51{
+	height:110px;
+	padding:55px 60px;
+}
+.xiao{
+	font-size:16px;
+	text-align:center;
+	margin-top:10px;
+}
+.xiao a{
+	text-decoration:none;
+	font-family:'微软雅黑';
+	color:black;
+}
+.kuai{
+	font-size:12px;
+	font-family:'微软雅黑';
+	color:#B0B0B0;
+	text-align:center;
+	margin-top:5px;
+}
+.qian{
+	font-size:12px;
+	font-family:'微软雅黑';
+	color:#FF6709;
+	text-align:center;
+	margin-top:10px;
+}
+/*设置背景颜色的外框*/
+.s6wai{
+	width:100%;
+	height:4554px;
+	background:#F5F5F5;
+	padding-top:76px;
+}
+/*下面是对“智能硬件”那一部分的设置，以及下面“搭配”、“配件"和“周边”相同样式的设置*/
+.s6{
+	width:1230px;
+	height:4554px;
+	margin:0px auto;
+}
+.s61{
+	width:100%;
+	height:660px;
+}
+.s611{
+	height:30px;
+	width:100%;
+}
+.s611 p{
+	font-size:23px;
+	font-family:'微软雅黑';
+}
+.s611 span a{
+	float:right;
+	font-size:16px;
+	font-family:'微软雅黑';
+	color:black;
+	text-decoration:none;
+	margin-top:5px;
+	margin-right:15px;
+}
+.s611 span a:hover{
+	color:#FF6700;
+}
+.s612{
+	width:100%;
+	height:616px;
+	margin-top:10px;
+}
+.jiu{
+	width:234px;
+	height:614px;
+	float:left;
+}
+.mianyou{
+	width:994px;
+	height:100%;
+	float:left;
+}
+.m1,.m2,.m3,.m4,.m5,.m6,.m7,.m8{
+	width:240px;
+	height:300px;
+	float:left;
+	background:#FEFEFE;
+	position:relative;
+	margin-left:8px;
+}
+.mianyou div img{
+	margin-top:30px;
+	margin-left:60px;
+}
+.mianyou .m4 img{
+	margin-left:40px;
+}
+.mianyou .m1 img{
+	margin-left:45px;
+}
+.mianyou .m3 img{
+	margin-left:70px;
+}
+.mianyou .m6 img{
+	margin-left:70px;
+}
+.mianyou .m8 img{
+	margin-left:80px;
+}
+.dingwei{
+	position:absolute;
+	bottom:20px;
+	left:35px;
+}
+.m8 .dingwei{
+	position:absolute;
+	bottom:20px;
+	left:15px;
+}
+.m5,.m6,.m7,.m8{
+	margin-top:13px;
+}
+.s62{
+	width:1230px;
+	height:656px;
+	margin-top:40px;
+}
+.dazhe{
+	width:64px;
+	height:22px;
+	border:1px solid red;
+	margin-left:85px;
+	text-align:center;
+	background:#E53935;
+	color:white;
+	font-family:'微软雅黑';
+}
+.s621{
+	width:100%;
+	height:30px;
+}
+.s621 p{
+	font-size:23px;
+	font-family:'微软雅黑';
+}
+.s621 a{
+	float:right;
+	font-size:16px;
+	font-family:'微软雅黑';
+	color:black;
+	text-decoration:none;
+	margin-top:5px;
+	margin-right:15px;
+	margin-left:20px;
+}
+.s621 a:hover{
+	color:#FF6700;
+	border-bottom:3px solid #FF6700
+}
+.s622{
+	margin-top:8px;
+}
+/*下面是鼠标移动到div上是下面弹出的内容设置*/
+.tanchu{
+	width:234px;
+	background:#FF6700;
+	position:absolute;
+	bottom:-77px; 
+	left:0px;
+	-webkit-transform:translate(0,-77px);
+}
+.tanchu a{
+	text-decoration:none;
+}
+#tanchu{
+	color:#FFC39B;
+}
+.tanchu p{
+	font-size:12px;
+	padding:10px 30px;
+	color:white;
+	display:none;
+}
+.da2:hover .tanchu{
+	height:77px;
+	-webkit-transition:all 4s linear 0s;
+}
+.da2:hover .tanchu  p{
+	display:block;
+}
+.da3:hover .tanchu{
+	height:77px;
+	-webkit-transition:all 4s linear 0s;
+}
+.da3:hover .tanchu  p{
+	display:block;
+}
+.da4:hover .tanchu{
+	height:77px;
+	-webkit-transition:all 4s linear 0s;
+}
+.da4:hover .tanchu  p{
+	display:block;
+}
+.da5:hover .tanchu{
+	height:77px;
+	-webkit-transition:all 4s linear 0s;
+}
+.da5:hover .tanchu  p{
+	display:block;
+}
+.da7:hover .tanchu{
+	height:77px;
+	-webkit-transition:all 4s linear 0s;
+}
+.da7:hover .tanchu  p{
+	display:block;
+}
+.da8:hover .tanchu{
+	height:77px;
+	-webkit-transition:all 4s linear 0s;
+}
+.da8:hover .tanchu  p{
+	display:block;
+}
+.da9:hover .tanchu{
+	height:77px;
+	-webkit-transition:all 4s linear 0s;
+}
+.da9:hover .tanchu  p{
+	display:block;
+}
+.da1,.da2,.da3,.da4,.da5,.da6,.da7,.da8,.da9{
+	width:234px;
+	height:300px;
+	float:left;
+	background:#FEFEFE;
+	position:relative;
+	-webkit-transition:all 0.1s linear 0s;
+}
+.da2,.da3,.da4,.da5,.da7,.da8,.da9{
+	margin-left:15px;
+}
+.da10{
+	width:234px;
+	height:300px;
+	float:left;
+	position:relative;
+	margin-left:15px;
+}
+.tie{
+	font-size:14px;
+	text-align:center;
+	margin-top:10px;
+}
+.tie a{
+	text-decoration:none;
+	font-family:'微软雅黑';
+	color:black;
+}
+.yuan{
+	font-size:12px;
+	font-family:'微软雅黑';
+	color:#FF6709;
+	text-align:center;
+	margin-top:5px;
+}
+.ping{
+	font-size:12px;
+	font-family:'微软雅黑';
+	color:#B0B0B0;
+	text-align:center;
+	margin-top:10px;
+}
+.dingwei2{
+	position:absolute;
+	bottom:25px;
+	left:10px;
+}
+.da2 .dingwei2{
+	position:absolute;
+	left:40px;
+}
+.da3 .dingwei2{
+	position:absolute;
+	left:70px;
+}
+.da4 .dingwei2{
+	position:absolute;
+	left:15px;
+}
+.da5 .dingwei2{
+	position:absolute;
+	left:80px;
+}
+.da7 .dingwei2{
+	position:absolute;
+	left:50px;
+}
+.da8 .dingwei2{
+	position:absolute;
+	left:70px;
+}
+.da9 .dingwei2{
+	position:absolute;
+	left:50px;
+}
+.da10{
+	width:234px;
+	height:300px;
+	float:left;
+	position:relative;
+	margin-left:15px;
+}
+.da2 img{
+	position:absolute;
+	top:50px;
+	left:50px;
+}
+.da3 img{
+	position:absolute;
+	top:50px;
+	left:50px;
+}
+.da4 img{
+	position:absolute;
+	top:50px;
+	left:50px;
+}
+.da5 img{
+	position:absolute;
+	top:50px;
+	left:50px;
+}
+.da7 img{
+	position:absolute;
+	top:50px;
+	left:50px;
+}
+.da8 img{
+	position:absolute;
+	top:50px;
+	left:50px;
+}
+.da9 img{
+	position:absolute;
+	top:50px;
+	left:50px;
+}
+.shang,.xia{
+	width:232px;
+	height:140px;
+	border:1px solid #FEFEFE;
+	background:#FEFEFE;
+	-webkit-transition:all 0.1s linear 0s;
+}
+/*下面是“搭配”、“配件"和“周边”右下角的那一块的设置*/
+.shang1{
+	width:95px;
+	height:45px;
+	margin-top:40px;
+	margin-left:25px;
+}
+.shang2{
+	float:right;
+	margin-right:26px;
+	margin-top:30px;
+}
+.shang1 .yuan{
+	margin-left:-60px;
+}
+.xia img{
+	margin-left:25px;
+	margin-top:40px;
+}
+.xia{
+	margin-top:15px;
+}
+.da6,.da7,.da8,.da9,.da10{
+	margin-top:15px;
+}
+.s612 .jiu:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.m1:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.m2:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.m3:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.m4:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.m5:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.m6:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.m7:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);				
+}
+.m8:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;	
+	-webkit-transform:translate(0px,-5px);
+}
+.da1:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.da2:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.da3:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;	
+	-webkit-transform:translate(0px,-5px);
+}
+.da4:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;	
+	-webkit-transform:translate(0px,-5px);
+}
+.da5:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.da6:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.da7:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.da8:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.da9:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);				
+}
+.shang:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;	
+	-webkit-transform:translate(0px,-5px);
+}
+.xia:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;	
+	-webkit-transform:translate(0px,-5px);
+}
+.dingwei3{
+	position:absolute;
+	bottom:20px;
+	left:10px;
+}
+.da5 .dingwei3{
+	position:absolute;
+	left:50px;
+}
+.da8 .dingwei3{
+	position:absolute;
+	left:60px;
+}
+.da9 .dingwei3{
+	position:absolute;
+	left:20px;
+}
+.dingwei4{
+	position:absolute;
+	bottom:20px;
+}
+.da2 .dingwei4{
+	position:absolute;
+	left:50px;
+}
+.da3 .dingwei4{
+	position:absolute;
+	left:55px;
+}
+.da4 .dingwei4{
+	position:absolute;
+	left:55px;
+}
+.da5 .dingwei4{
+	position:absolute;
+	left:55px;
+}
+.da7 .dingwei4{
+	position:absolute;
+	left:50px;
+}
+.da8 .dingwei4{
+	position:absolute;
+	left:70px;
+}
+.da9 .dingwei4{
+	position:absolute;
+	left:50px;
+}
+.s63{
+	width:1230px;
+	height:340px;
+	margin-top:40px;
+}
+.taoyong .da2{
+	margin-left:0px;
+}
+.taoyong .da7{
+	margin-top:0px;
+}
+.s64{
+	width:1230px;
+	height:460px;
+	margin-top:40px;
+}
+.s641{
+	width:100%;
+	height:30px;
+	font-size:23px;
+	font-family:'微软雅黑';
+}
+/*下面是对“热评产品”和“内容”部分的设置”*/
+.s642{
+	width:100%;
+	height:418px;
+	margin-top:15px;
+}
+/*下面是“内容”部分鼠标经过时出现的左右滚动选择块*/
+#zuo,#you{
+	width:15px;
+	height:40px;
+	font-size:25px;
+	padding-top:10px;
+	padding-left:5px;
+	font-weight:blod;
+	position:absolute;
+	top:190px;
+	display:none;
+}
+#you{
+	left:277px;
+}
+.re1,.re2,.re3,.re4{
+	width:296px;
+	height:415px;
+	float:left;
+	background:#FFFFFF;
+	-webkit-transition:all 0.1s linear 0s;
+	position:relative;
+}
+.re1:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.re1:hover  #zuo{
+	display:block;
+	background:#D9D9D9;
+	color:white;
+}
+.re1:hover  #you{
+	display:block;
+	background:#D9D9D9;
+	color:white;
+}
+.re1 #zuo:hover{
+	background:#555555;
+	color:white;
+}
+.re1 #you:hover{
+	background:#555555;
+	color:white;
+}
+.re2:hover  #zuo{
+	display:block;
+	background:#D9D9D9;
+	color:white;
+}
+.re2:hover  #you{
+	display:block;
+	background:#D9D9D9;
+	color:white;
+}
+.re2  #zuo:hover{
+	background:#555555;
+	color:white;
+}
+.re2 #you:hover{
+	background:#555555;
+	color:white;
+}
+.re3:hover  #zuo{
+	display:block;
+	background:#D9D9D9;
+	color:white;
+}
+.re3:hover  #you{
+	display:block;
+	background:#D9D9D9;
+	color:white;
+}
+.re3 #zuo:hover{
+	background:#555555;
+	color:white;
+}
+.re3 #you:hover{
+	background:#555555;
+	color:white;
+}
+.re4:hover  #zuo{
+	display:block;
+	background:#D9D9D9;
+	color:white;
+}
+.re4:hover  #you{
+	display:block;
+	background:#D9D9D9;
+	color:white;
+}
+.re4  #zuo:hover{
+	background:#555555;
+	color:white;
+}
+.re4 #you:hover{
+	background:#555555;
+	color:white;
+}
+.re2:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.re3:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.re4:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.re2,.re3,.re4{
+	margin-left:15px;
+}
+.s642 p a{
+	text-decoration:none;
+	color:black;
+	font-size:14px;
+	line-height:24px;
+}
+.s642 p{
+	margin:20px 28px;
+}
+.lai{
+	margin:0 28px 0;
+	padding:0 10px 0 0;
+	font-size:12px;
+	color:#b0b0b0;
+}
+.er{
+	display:inline-block;
+	font-size:14px;
+}
+.er a{
+	color:black;
+	text-decoration:none;
+	margin-left:28px;
+}
+.shu{
+	color:#D6D6D6;
+}
+.dian{
+	color:#FF7000;
+}
+h2{
+	padding-top:50px;
+	font-size:16px;
+	text-align:center;
+}
+.tu{
+	color:#ffac13;
+	border-top:1px solid #ffac13;
+}
+.zhu{
+	color:#83c44e;
+	border-top:1px solid #83c44e;
+}
+.you{
+	color:#e53935;
+	border-top:1px solid #e53935;
+}
+.ying{
+	color:#2196f3;
+	border-top:1px solid #2196f3;
+}
+.zuo{
+	font-size:22px;
+	text-align:center;
+	margin-top:25px;
+}
+.bu{
+	font-size:12px;
+	margin-top:10px;
+	text-align:center;
+}
+.buu{
+	text-decoration:none;
+	color:#b0b0b0;
+}
+.zhuo{
+	text-decoration:none;
+	color:black;
+}
+.s652{
+	margin-top:15px;
+}
+.zhao{
+	margin-top:46px;
+	margin-left:50px;
+}
+/*下面是视频部分的设置*/
+.s66{
+	width:1230px;
+	height:330px;
+	margin-top:40px;
+}
+.s661{
+	width:100%;
+	height:30px;
+	font-size:23px;
+	font-family:'微软雅黑';
+}
+.s662{
+	width:100%;
+	height:285px;
+	margin-top:15px;
+}
+.pin1,.pin2,.pin3,.pin4{
+	width:296px;
+	height:285px;
+	float:left;
+	background:#FFFFFF;
+}
+.pin2,.pin3,.pin4{
+	margin-left:15px;
+}
+.hong{
+	font-size:14px;
+	text-align: center;
+	margin-top:30px;
+}
+.hong a{
+	text-decoration:none;
+	color:#333;
+}
+.hong a:hover{
+	color:#FF6709;
+}
+.zeren{
+	font-size:12px;
+	color:#b0b0b0;
+	text-align:center;
+	margin-top:12px;
+}  
+.pin1,.pin2,.pin3,.pin4{
+	position:relative;
+	-webkit-transition:all 0.1s linear 0s;
+}
+.pin1:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.pin2:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.pin3:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+.pin4:hover{
+	box-shadow:5px 5px 20px 0px #C9C9C9;
+	-webkit-transform:translate(0px,-5px);
+}
+/*这下面是视频左下角的播放按钮设置*/
+.bo{
+	width:36px;
+	height:24px;
+	border:2px solid white;
+	border-radius:15px;
+	position:absolute;
+	bottom:115px;
+	left:10px;
+	background-color:rgba(10,24,37,0.7);
+}
+.fang{
+	width:0px;
+	height:0px;
+	border-right:10px solid transparent;
+	border-top:8px solid transparent;
+	border-bottom:8px solid transparent;
+	border-left:10px solid white;
+	margin-top:5px;
+	margin-left:15px;
+}
+.bo:hover{
+	background:#FF6700;
+	border:2px solid #FF6700;
+}
+.bofang:hover .bo{
+	background:#FF6700;
+	border:2px solid #FF6700;
+}
